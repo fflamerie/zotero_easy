@@ -10,18 +10,19 @@ Training material of a 3 hour workshop at URFIST de Bordeaux.
 
 ## Handout
 
-Support de cours complet : [COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_gerer_biblio/blob/master/content/gerer_biblio_zotero_COURS.md)
+[HANDOUT online in html](https://github.com/fflamerie/zotero_easy/blob/main/docs/zotero_easy_HANDOUT.md)
 
 ## Exercises
 ### Exercise "Other methods for adding items"
-  * [fichiers .PDF à importer](https://github.com/fflamerie/zotero_gerer_biblio/blob/master/content/import-PDF)
+
+[PDF files to import](https://github.com/fflamerie/zotero_easy/tree/main/docs/import-PDF)
 
 ### Exercise "Citing with Zotero"
 
-Le style bibliographique utilisé est un style auteur-date, le style **ISO-690 (author-date, no abstract, Français)**.
+Citation style used is **American Psychological Association 7th edition**.
 
-* [fichier .DOC à modifier](https://github.com/fflamerie/zotero_gerer_biblio/blob/master/content/zotero_gerer_biblio_TP_citer_EXERCICE.doc)
-* [fichier .PDF modèle](https://github.com/fflamerie/zotero_gerer_biblio/blob/master/content/zotero_gerer_biblio_TP_citer_MODELE.pdf)
+* [DOC file to edit](https://github.com/fflamerie/zotero_easy/blob/main/docs/zotero_easy_CITE_EXERCISE.doc)
+* [PDF file template](https://github.com/fflamerie/zotero_easy/blob/main/docs/zotero_easy_CITE_TEMPLATE.pdf)
 
 ## Agenda published on URFIST de Bordeaux website
 
