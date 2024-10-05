@@ -539,12 +539,12 @@ Zotero Style Preview has the double advantage of being integrated into Zotero an
 
 
 ##### ZoteroPreview
-[ZoteroPreview](https://github.com/dcartertod/zotero-plugins) provides an immediate display of the formatting performed by a citation style, but it is not possible to select several item or several styles at once. ZoteroPreview is an extension and is therefore not installed in Zotero by default.
+[ZoteroPreview](https://github.com/dcartertod/zotero-plugins) provides an immediate display of the formatting performed by a citation style, but it is not possible to select several item or several styles at once. ZoteroPreview is a plugin and is therefore not installed in Zotero by default.
 
-Installing an extension in Zotero involves loading into Zotero a file in a specific format, the `.xpi` format, following the steps below.
+Installing a plugin in Zotero involves loading into Zotero a file in a specific format, the `.xpi` format, following the steps below.
 
-* Save on your computer the `.xpi` file from the website of the extension.
-* In Zotero, go to the _Tools_ > _Extensions_ menu.
+* Save on your computer the `.xpi` file from the website of the plugin.
+* In Zotero, go to the _Tools_ > _Plugins_ menu.
 * Click on the cogwheel and choose _Install Plugin From File_.
 * Select and load the `.xpi` file.
 
@@ -556,7 +556,7 @@ ZoteroPreview displays a preview of the citation and/or bibliographic entry in t
 
 ![ZoteroPreview : document preview and copy buttons](img/zotero_preview_ref_EN.png)
 
-The ZoteroPreview section of the Zotero settings, added you installed the extension, allows you to define :
+The ZoteroPreview section of the Zotero settings, added you installed the plugin, allows you to define :
 
 * the citation style to be applied,
 * the position of the preview in the right-hand panel (top, bottom or after the Info section),
