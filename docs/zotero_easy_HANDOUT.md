@@ -62,7 +62,7 @@ Why is Safari crossed out? The Zotero connector for Safari is much more limited 
 
 Why does it matter?
 
-* Users can contribute to the software - see [full list of Zotero add-ons](https://www.zotero.org/support/https://www.zotero.org/support/plugins), and participate in the user community through the [Zotero Forum](https://forums.zotero.org/).
+* Users can contribute to the software - see ![zotero][zotero] [full list of Zotero plugins](https://www.zotero.org/support/https://www.zotero.org/support/plugins), and participate in the user community through the [Zotero Forum](https://forums.zotero.org/).
 * Development is agile and user-oriented.
 * Zotero is developed by a non-profit organization, with no financial interest in your data; you are not required to create an account to use Zotero.
 
@@ -92,7 +92,7 @@ The steps may vary depending on your operating system, you will find detailed in
 To fully enjoy Zotero, the application should be plugged in your browser and in your word processor (Microsoft Word, LibreOffice Writer).
 
 1. Check that Zotero is installed by opening the application on your computer.
-2. Open your browser and check that Zotero appears in the toolbar. If it doesn't appear, follow the instructions given on the dedicated page in [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button).
+2. Open your browser and check that Zotero appears in the toolbar. If it doesn't appear, follow the instructions given on the dedicated page in ![zotero][zotero] [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button).
 3. Open your word processor and check that the Zotero plugin is installed. Usually, after installing Zotero, a new tab will appear in your word processor. Depending on your software, Zotero might alternatively be shown with other "Add-ons".
 
 If the installation of the Word processor plugin did not work, you can reinstall it from Zotero itself.
@@ -107,7 +107,7 @@ If the installation of the Word processor plugin did not work, you can reinstall
 
 ![zotero][zotero] [Zotero Documentation: Preferences](https://www.zotero.org/support/preferences)
 
-💬 _In Zotero 7 the "Preferences" are now called "Settings". The documentation should soon be updated to take this change into account._
+💬 _In Zotero 7 "Preferences" are now called "Settings". The documentation should soon be updated to take this change into account._
 
 ### Minimal settings
 
@@ -128,13 +128,7 @@ It is not necessary to create an online account or to enable synchronization to 
 * **syncing** Zotero libraries on Zotero online server and on multiple devices (e.g. a work computer and a home computer),
 * **groups** to create shared libraries.
 
-We're going to use this group functionality with the group created for the course.
-
-To make this group library appear in Zotero, you need to set up Zotero synchronization.
-
-These settings can be accessed from _Settings_ > _Sync_.
-
-To get started, after entering your user name and password, use the following settings.
+We're going to use this group functionality with the group created for the course. To make this group library appear in Zotero, you need to set up Zotero synchronization. These settings can be accessed from _Settings_ > _Sync_. To get started, after entering your user name and password, use the following settings.
 
 ##### Data Syncing
 
@@ -142,7 +136,7 @@ Check _Sync automatically_.
 
 ##### File Syncing
 
-* Uncheck _Sync attachment files in My Library using..._, unless you have checked this box previously and set the service to use for synchronizing your attachments.
+* Uncheck _Sync attachment files in My Library using..._, unless you have checked this box previously and set the service to use for synchronizing your attachment files.
 * Check _Sync attachment files in group libraries using Zotero storage_.
 
 ![zotero_pref_sync](img/zotero_pref_sync_EN.png)
@@ -413,7 +407,7 @@ A citation style defines the way in which the bibliographic parts of a text are 
 * **Citations**: these can be inserted either as **in-text citations** (number, author's name and date, etc.), or as **note citations**, i. e. more or less abbreviated bibliographic entries in footnotes or endnotes.
 * **Bibliography or list of references cited**.
 
-[Zotero style repository](https://www.zotero.org/styles) contains over 10,000 styles, grouped into 2 main categories:
+[Zotero style repository](https://www.zotero.org/styles) contains over 10'000 styles, grouped into 2 main categories:
 
 * **_in-text_** styles, in which a citation in the text refers to an entry in the final bibliography,
 * **_note_** styles, in which a marker (symbol, number, etc.) points to a footnote or endnote.
@@ -523,7 +517,7 @@ Limiting a style to a specific language prevents users from making mistakes. Wha
 
 Two tools make it easier to compare citation styles in Zotero:
 
-* _Zotero Style Preview_, integrated into Zotero and accessible from _Settings_ > _Cite_,
+* Zotero Style Preview, integrated into Zotero and accessible from _Settings_ > _Cite_,
 * [ZoteroPreview](https://github.com/dcartertod/zotero-plugins) plugin, which must be installed in addition to Zotero.
 
 ![pref_styles_tools](img/pref_styles_outils_EN.png)
@@ -556,7 +550,7 @@ ZoteroPreview displays a preview of the citation and/or bibliographic entry in t
 
 ![ZoteroPreview : document preview and copy buttons](img/zotero_preview_ref_EN.png)
 
-The ZoteroPreview section of the Zotero settings, added you installed the plugin, allows you to define :
+The ZoteroPreview section of the Zotero settings, added when you installed the plugin, allows you to define :
 
 * the citation style to be applied,
 * the position of the preview in the right-hand panel (top, bottom or after the Info section),
@@ -693,7 +687,7 @@ This will lead you to all the access options available in your institution, and 
 
 All you have to do is click on _Library Lookup_ in the _Locate_ menu, i.e. the arrow with a circle at the bottom of the shortcut bar on the right-hand panel.
 
-![zotero][zotero][Zotero Documentation : Locate Menu](https://www.zotero.org/support/locate)
+![zotero][zotero] [Zotero Documentation : Locate Menu](https://www.zotero.org/support/locate)
 
 [zotero]: img/icone_zotero.png
 
