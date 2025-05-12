@@ -1,6 +1,6 @@
 # Reference management made easy with Zotero
 
-Training material of a 3 hour workshop at URFIST de Bordeaux.
+Training material of a 3 hour workshop - Urfist workshop
 
 ## Learning objectives
 
@@ -24,7 +24,7 @@ Citation style used is **American Psychological Association 7th edition**.
 * [DOC file to edit](https://github.com/fflamerie/zotero_easy/blob/main/docs/zotero_easy_CITE_EXERCISE.doc)
 * [PDF file template](https://github.com/fflamerie/zotero_easy/blob/main/docs/zotero_easy_CITE_TEMPLATE.pdf)
 
-## Agenda published on URFIST de Bordeaux website
+## Agenda
 
 Tired of manually writing and formatting your bibliographic references? Of reorganizing your bibliography every time you insert a new citation? Weary of dealing with the dispersal and lack of links between your bibliographic references, your PDFs, your notes, etc.?
 
