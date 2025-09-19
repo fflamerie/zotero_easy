@@ -10,15 +10,16 @@ The icon ![zotero][zotero] points to the official Zotero documentation, includin
 
 ## Agenda
 
-- [1. Introduction](#1-introduction)   
-- [2. Installing and setting up Zotero](#2-installing-and-setting-up-zotero)   
-- [3. Building a Zotero library step 1, adding items and files](#3-building-a-zotero-library-step-1-adding-items-and-files)   
-- [4. Building a Zotero library step 2, organizing content from bibliographic references to PDF annotations](#4-building-a-zotero-library-step-2-organizing-content-from-bibliographic-references-to-PDF-annotations)
-- [5. Identifying and installing the standard bibliographic styles for your field in Zotero](#5-identifying-and-installing-the-standard-bibliographic-styles-for-your-field-in-Zotero)  
-- [6. Citing with Zotero](#6-citing-with-zotero)   
-- [7. From Zotero library to online bibliography](#7-from-zotero-library-to-online-bibliography)
-- [8. Your Zotero data](#8-your-zotero-data)
-- [9. Conclusion](#9-conclusion)
+0. Round table introduction
+1. Introduction
+2. Installing and setting up Zotero
+3. Building a Zotero library step 1, adding items and files
+4. Building a Zotero library step 2, organizing content from bibliographic items to PDF annotations
+5. Identifying and installing the standard bibliographic styles for your field in Zotero
+6. Citing with Zotero
+7. From Zotero library to online bibliography
+8. Your Zotero data
+9. Conclusion
 
 ## 0. Round table introduction
 
@@ -49,14 +50,13 @@ Zotero solves the following problems that can be encountered when doing bibliogr
 * Pointless reformatting of references
 * Collaboration difficult to organize
 
-![zotero_overview](img/zotero_overview_EN.png)
+![Zotero overview](img/zotero_overview_EN.png)
 
 #### Note regarding Safari
 
-Why is Safari crossed out? The Zotero connector for Safari is much more limited than the one for Firefox, Chrome or Edge. For example, it does not support advanced features such as **automatic proxy detection** and **automatic RIS/BibTeX import**.
+Why is Safari crossed out? Zotero Connector for Safari is much more limited than the one for Firefox, Chrome or Edge. For example, it does not support advanced features such as **automatic proxy detection** and **automatic RIS/BibTeX import**.
 
 ![zotero][zotero] [Zotero knowledge base: Zotero Connector and Safari ](https://www.zotero.org/support/kb/safari_compatibility)
-
 
 ### Zotero is an open source software
 
@@ -78,9 +78,9 @@ To do this, in the Zotero menu click on _Help_ > _Check for updates..._, and fol
 
 ![zotero][zotero] [Zotero website : Zotero download page](https://www.zotero.org/download/)
 
-You need to install both **Zotero application** on your computer **AND** **Zotero connector** in your browser (Chrome, Firefox or Edge).
+You need to install both **Zotero application** on your computer **AND** **Zotero Connector** in your browser (Chrome, Firefox or Edge).
 
-![zotero_instal](img/zotero_instal.png)
+![Download page on Zotero website](img/zotero_instal.png)
 
 The steps may vary depending on your operating system, you will find detailed instructions in the documentation.
 
@@ -92,8 +92,11 @@ The steps may vary depending on your operating system, you will find detailed in
 To fully enjoy Zotero, the application should be plugged in your browser and in your word processor (Microsoft Word, LibreOffice Writer).
 
 1. Check that Zotero is installed by opening the application on your computer.
-2. Open your browser and check that Zotero appears in the toolbar. If it doesn't appear, follow the instructions given on the dedicated page in ![zotero][zotero] [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button).
-3. Open your word processor and check that the Zotero plugin is installed. Usually, after installing Zotero, a new tab will appear in your word processor. Depending on your software, Zotero might alternatively be shown with other "Add-ons".
+2. Open your browser and check that Zotero appears in the toolbar. If it doesn't appear, follow the instructions given in the documentation.
+
+[zotero][zotero] [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button)
+
+4. Open your word processor and check that the Zotero plugin is installed. Usually, after installing Zotero, a new tab will appear in your word processor. Depending on your software, Zotero might alternatively be shown with other "Add-ons".
 
 If the installation of the Word processor plugin did not work, you can reinstall it from Zotero itself.
 
@@ -115,7 +118,7 @@ Here are a few recommendations to get started. All settings can be accessed from
 
 #### "General" section
 
-File management section
+"File Handling section
 
   * Check the _Automatically attach associated PDFs and other files when saving items_ box, to automatically retrieve PDFs of articles when you are on a publisher's site or any other site where the PDF is present. If you are on PubMed, Scopus or another bibliographic database, you will need to follow the link to the publisher's site to save the bibliographic reference and the PDF of the article at the same time. And, of course, if it is a paying resource, your institution must be a subscriber.
   * Check the _Automatically retrieve metadata for PDFs and ebooks_ box.
@@ -139,21 +142,21 @@ Check _Sync automatically_.
 * Uncheck _Sync attachment files in My Library using..._, unless you have checked this box previously and set the service to use for synchronizing your attachment files.
 * Check _Sync attachment files in group libraries using Zotero storage_.
 
-![zotero_pref_sync](img/zotero_pref_sync_EN.png)
+![Sync settings](img/zotero_pref_sync_EN.png)
 
 ![zotero][zotero] [Zotero Documentation: Syncing](https://www.zotero.org/support/sync)
 
-Once syncing is enabled, you should see a new "Group Libraries" section in Zotero, below "My Library".
+Once syncing has been enabled and an initial synchronisation has been performed, you should see a new "Group Libraries" section in Zotero, below "My Library".
 
 In this section, you should see the group library you have just joined; you should find a collection (folder icon) with your Zotero username.
 
-![zotero_bib_groupe](img/zotero_bib_groupe_EN.png)
+![Zotero groups in Zotero left pane](img/zotero_bib_groupe_EN.png)
 
 ## 3. Building a Zotero library step 1, adding items and files
 
 ![zotero_collect](img/zotero_collect.png)
 
-A bibliographic reference, an **item** in your Zotero library, is made up of **metadata**, information describing an article, a book, etc. and enabling you to retrieve it easily. Zotero structures the metadata you collect about items. When you cite with Zotero, it generates consistent citations and bibliographies. Zotero also lets you store files attached to references in the form of **attachments**.
+A bibliographic reference, an **item** in your Zotero library, is made up of **metadata**, descriptive details (title, authors, date, etc.) enabling you to retrieve it easily. Zotero structures the metadata you collect about items. When you cite with Zotero, it generates consistent citations and bibliographies. Zotero also lets you store files attached to items as **attachments**.
 
 ### Adding content via your web browser
 
@@ -165,7 +168,7 @@ This is the :
 
 method to add documents to your library.
 
-Zotero Connector is the extension you have installed in your browser. This extension detects the bibliographic references available on the web pages you visit.
+Zotero Connector is the plugin you have installed in your browser. This plugin detects the bibliographic references available on the web pages you visit.
 
 Open Zotero and click on the _Save to Zotero_ button in your browser to save the bibliographic reference as an item in your Zotero library. Zotero will also try to save the full-text PDF file as an attachment at the same time.
 
@@ -173,15 +176,13 @@ Example : [an article from the journal Natures Sciences Sociétés](https://doi.
 
 ### Exercise "Saving document from online sites with Zotero Connector"
 
-We will take **10 minutes** for this exercise.
-
-As you browse the websites you usually use for your bibliographic research, save new items in the collection under your username in the course group library.
+📝 As you browse the websites you usually use for your bibliographic research, save new items in the collection under your username in the course group library.
 
 You can save books, journal articles, theses, or even web pages, newspaper articles or magazine articles. The key is to test saving in Zotero from your usual sources. Add files (pdf, jpg or other) if applicable.
 
 ### All methods for adding items to your library
 
-![zotero_add_overview](img/zotero_ajout_overview_EN.png)
+![Overview of the different methods for adding items to Zotero](img/zotero_ajout_overview_EN.png)
 
 
 #### 1, Zotero Connector
@@ -189,7 +190,7 @@ This is the method we have just used.
 
 #### 2, import from file or from clipboard
 
-Some databases or catalogs can provide you with a downloadable file containing one or more references. The most common formats for these types of files are RIS (.ris) or BibTeX (.bib). This is particularly useful for large-scale exports or when changing bibliographic management software.
+Some databases or catalogs can provide you with a downloadable file containing one or more references. The most common formats for these types of files are RIS (.ris) or BibTeX (.bib). This is particularly useful for large-scale exports or when moving from another reference manager.
 
 💡 **On some sites, this export is better configured than saving through Zotero Connector.**
 
@@ -223,15 +224,13 @@ Example : a PDF sent by a colleague
 
 #### 3, manually
 
-Sometimes, there is no available metadata encoded in the web page you are visiting, or the document you are holding is not indexed in an online catalog. In these cases, you have to create or edit the reference yourself.
+Sometimes, there is no available metadata encoded in the web page you are visiting, or the document you are holding is not indexed in an online catalog. In these cases, you have to create or edit the item yourself.
 
 In Zotero, you can create a new item by clicking on the _New Item_ toolbar button. You must choose the appropriate **document type** (_i. e._ "Book", "Report", etc.). When you have selected a document type, an empty item appears. You can then fill in the fields according to the document you have in front of you. In all cases, it is preferable to be exhaustive and to provide as much information as possible.
 
 ### Exercise "Other methods for adding items"
 
-We will take **10 minutes** for this exercise.
-
-Add documents using one of the following methods.
+📝 Add documents using one of the following methods.
 
 * **Magic wand**: use these DOIs
 
@@ -271,7 +270,7 @@ Give priority to reliable and exhaustive sources when creating or completing you
 
 #### Recommendation 2: anticipate standards
 
-Find out about the minimum requirements for bibliographic writing in your field of research. Do you need to record the original date, place and commercial publisher for each book? If so, look them up and record them at the same time as you create the corresponding item in your Zotero library.
+Find out about the minimum requirements for citation writing in your field of research. Do you need to record the original date, place and commercial publisher for each book? If so, look them up and record them at the same time as you create the corresponding item in your Zotero library.
 
 #### Recommendation 3: don't procrastinate
 
@@ -298,7 +297,7 @@ Irrespective of the software used and the volume to be considered, here are the 
 
 ### Tools for organizing your library
 
-![zotero_organisation_overview](img/zotero_organisation_overview_EN.png)
+![Overview of Zotero organisation tools](img/zotero_organisation_overview_EN.png)
 
 We will focus on some most useful features as you are starting your library, that is to say:
 
@@ -308,9 +307,7 @@ We will focus on some most useful features as you are starting your library, tha
 
 ⚠️ In Zotero, the icon associated with a **collection** is a folder, but collections are more like **music playlists** (think of iTunes, Spotify, etc.) than folders in your computer filesystem.
 
-### Exercise "Getting started with organization"
-
-We take **5 minutes** for this exercise.
+### Getting started with organization
 
 #### Tagging
 
@@ -319,7 +316,7 @@ We take **5 minutes** for this exercise.
 * Add it to all the items in your library at once : how do you do this? 2 methods are possible.
 * How many colored tags can you create?
 
-#### Searching
+#### Quick search and advanced search
 
 * Quick search : what difference do you make between searching _All Fields & Tags_ and searching _Everything_?
 * Create a saved search to retrieve all the articles tagged as **to_read** AND saved in your library within the last 7 days.
@@ -334,13 +331,21 @@ However, even if you uncheck this box you will still save the associated keyword
 
 To keep a clean, easy-to-use list of personal tags separate from automatic tags, the best option is therefore to **prefix** your personal tags with a typographical sign such as the `_` underscore. This way, your personal tags will not only be easily identifiable, but will always be shown first in the tag selector.
 
+### Why choose tags over collections?
+
+There are three main reasons.
+
+* **Readability**: with **coloured tags**, you can quickly view all items associated with a tag. You can also easily **filter** your tags in the tag selector. This allows you to create many tags without risk of getting confused.
+* **Portability**: tags are part of the item's bibliographic information and are therefore exported in the same way as all other bibliographic information when you export items to a .ris, .csv, etc. file. Collections and saved searches, on the other hand, are part of your library's **interface**. Information about filing in a collection is not saved as a bibliographic detail for the item.
+* **Automated management**: thanks to the scripts in [Actions & Tags plugin](https://github.com/windingwind/zotero-actions-tags), you can easily manage a large number of tags, split them, delete them globally or selectively, etc. With [Zutilo plugin](https://github.com/wshanks/Zutilo), you can copy all tags associated with an item and paste them into one or more other items.
+
 ### Saved searches to automate organisation
 
 💡 **Let Zotero works for you**
 
 Keep in mind that filing items in collections, adding tags, etc. requires manual input and takes time. **Saved searches** are a great way of saving time and improving efficiency, by automatically using the information you have retrieved and added for each item.
 
-Saved searches support a relatively rich syntax. To retrieve all references for which a field is empty, for example references without an abstract, simply create a search on the following model.
+Saved searches support a relatively rich syntax. To retrieve all items for which a field is empty, for example items without an abstract, simply create a search on the following model.
 
 ```
 Abstract -- does not contain -- %
@@ -348,14 +353,14 @@ Abstract -- does not contain -- %
 
 ### Zotero's integrated file reader and annotation tools
 
-![pdf_reader](img/lecteur_pdf_EN.png)
+![Overview of PDF reader](img/lecteur_pdf_EN.png)
 
 The **PDF reader** integrated from Zotero 6 supports **EPUB** files and **webpage snapshots** since Zotero 7. In particular, it offers the following features, in combination with a powerful note editor.
 
 * Open files in a built-in reader either within a tabbed interface in the main Zotero window, or in separate windows.
 * Clean up metadata for an item while viewing the associated file.
 * **Mark up** files using a variety of tools, including :
-  * create text or handwritten annotations (PDF files only),
+  * create text or ink annotations (PDF files only),
   * highlight and underline with 8 different colours,
   * extract text and images and comment on them.
 * Systematically include **citation information**, including the page, in each annotation.
@@ -369,8 +374,8 @@ Zotero can **import annotations** made in an external PDF reader, as ZotFile did
 
 To **export PDFs** with embedded annotations from Zotero, proceed as follows.
 
-* Select the PDF parent documents in your Zotero library.
-* In the Zotero menu bar, select _File_ > _Export PDF..._
+* Select the PDFs or their parent items in your Zotero library.
+* In Zotero toolbar, select _File_ > _Export PDFs..._
 
 ### Resources
 
@@ -394,7 +399,7 @@ To **export PDFs** with embedded annotations from Zotero, proceed as follows.
 
 ![zotero][zotero] [Zotero knowledge base : Why does Zotero store PDF annotations in its database instead of in the PDF file?](https://www.zotero.org/support/kb/annotations_in_database)
 
-## 5. Identifying and installing the standard bibliographic styles for your field in Zotero
+## 5. Identifying and installing the standard citation styles for your field in Zotero
 
 ![zotero_cite](img/zotero_cite.png)
 
@@ -404,8 +409,8 @@ A citation style defines the way in which the bibliographic parts of a text are 
 
 2 parts should be regarded.
 
-* **Citations**: these can be inserted either as **in-text citations** (number, author's name and date, etc.), or as **note citations**, i. e. more or less abbreviated bibliographic entries in footnotes or endnotes.
-* **Bibliography or list of references cited**.
+* **Citations**: these can be inserted either as **in-text citations** (number, author's name and date, etc.), or as **note citations**, _i. e._ more or less abbreviated bibliographic entries in footnotes or endnotes.
+* **Bibliography or list of cited references**.
 
 [Zotero style repository](https://www.zotero.org/styles) contains over 10'000 styles, grouped into 2 main categories:
 
@@ -458,7 +463,6 @@ In the text, a citation is a **code**.
 
 >Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[ZwVH1983; vaHV1991]</span>.</cite>
 
-
 In the bibliography, entries are listed following **in order of appearance in the text**.
 
 ><span style="color:#0000CD;">[ZwVH1983]</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
@@ -466,7 +470,6 @@ In the bibliography, entries are listed following **in order of appearance in th
 ><span style="color:#0000CD;">[vaHV1991]</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
 
 Only one style follows to this model in the style repository, it is [DIN 1505-2 (alphanumeric, German)](https://www.zotero.org/styles/din-1505-2-alphanumeric) style.
-
 It has 2 limitations:
 
 * it is monolingual in German,
@@ -479,7 +482,7 @@ A custom label can be defined, but this will have to be done manually for each r
 
 #### _Note_ styles
 
-Styles with notes, mostly used in the arts and humanities, are the most complex. Citations are not codes inserted into the text, but bibliographic entries in a more or less abbreviated form, inserted as footnotes or endnotes. In addition, Latin references such as _ibidem_, _op. cit._, etc. are sometimes used, according to precise substitution rules.
+Styles with notes, mostly used in the arts and humanities, are the most complex. Citations are not codes inserted into the text, but bibliographic entries in a more or less abbreviated form, inserted as footnotes or endnotes. In addition, Latin terms such as _ibidem_, _op. cit._, etc. are sometimes used, according to precise substitution rules.
 
 You will find a marker in the text, and the contents of the note at the bottom of the page or at the end of the document.
 
@@ -515,52 +518,25 @@ Limiting a style to a specific language prevents users from making mistakes. Wha
 
 #### Comparing styles easily in Zotero
 
-Two tools make it easier to compare citation styles in Zotero:
+Two tools make it easy to compare bibliographic styles in Zotero.
 
-* Zotero Style Preview, integrated into Zotero and accessible from _Settings_ > _Cite_,
-* [ZoteroPreview](https://github.com/dcartertod/zotero-plugins) plugin, which must be installed in addition to Zotero.
+* The **Style Preview feature** can be accessed from Settings > Cite.
 
-![pref_styles_tools](img/pref_styles_outils_EN.png)
+![Zotero Settings > Cite > Editor and Style Preview](img/pref_styles_outils_EN.png)
+  
+* A bibliographic entry from the urrently selected item in the library can be displayed in the **header of the right-hand panel**.
 
-We are not considering here the bibliographic entry displayed in the header of the right-hand panel. This feature does not display the **citation**, which is an important element to take into account when comparing styles.
+![Header of the right-hand panel of Zotero in the form of a bibliography entry](img/entete_entree_bib_EN.png)
 
-![bibliographic entry at the top of Zotero right pane](img/entete_entree_bib_EN.png)
+In Style Preview, Zotero generates citations and the corresponding bibliography **in different styles**, based on a **selection of items**. While this allows you to compare the formatting of several styles for different types of documents at a glance, it takes several clicks to generate the preview, which can be difficult to read if you have installed a large number of styles.
 
-##### Zotero Style Preview
-Zotero Style Preview has the double advantage of being integrated into Zotero and of generating a preview from one or more items selected in the Zotero library. However, several clicks are required to generate the preview, and it can be difficult to read if you have installed a large number of styles.
+![Style Ppreview window](img/apercu_styles_EN.png)
 
-![style preview](img/apercu_styles_EN.png)
-
-
-##### ZoteroPreview
-[ZoteroPreview](https://github.com/dcartertod/zotero-plugins) provides an immediate display of the formatting performed by a citation style, but it is not possible to select several item or several styles at once. ZoteroPreview is a plugin and is therefore not installed in Zotero by default.
-
-Installing a plugin in Zotero involves loading into Zotero a file in a specific format, the `.xpi` format, following the steps below.
-
-* Save on your computer the `.xpi` file from the website of the plugin.
-* In Zotero, go to the _Tools_ > _Plugins_ menu.
-* Click on the cogwheel and choose _Install Plugin From File_.
-* Select and load the `.xpi` file.
-
-You may need to restart Zotero to complete the installation.
-
-![plugin installation window](img/install_module_EN.png)
-
-ZoteroPreview displays a preview of the citation and/or bibliographic entry in the right-hand pane, with a copy button.
-
-![ZoteroPreview : document preview and copy buttons](img/zotero_preview_ref_EN.png)
-
-The ZoteroPreview section of the Zotero settings, added when you installed the plugin, allows you to define :
-
-* the citation style to be applied,
-* the position of the preview in the right-hand panel (top, bottom or after the Info section),
-* font size and line spacing.
-
-![ZoteroPreview : settings window](img/zotero_preview_settings_EN.png)
+The header of the right-hand panel allows you to quickly view the formatting applied **by a specific style** to **a specific item**. It also allows you to check that the bibliographic information is being entered correctly as you go along, as it immediately highlights any input errors that affect the bibliographic entry being created. However, the header only displays the bibliography entry and not the **citation**, which may be an important element to consider, particularly for note styles.
 
 ##### Points to watch out for
 
-Whatever the tool and method used to compare styles, it is important to make sure of two points if the comparison is to be meaningful and useful.
+Whatever the tool and method used to compare styles, it is important to make sure of two points if the comparison is to be meaningful.
 
 First of all, make sure that the items you use as examples reflect the **diversity of document types** you cite (article, chapter, but also thesis, patent or film): this will ensure that all these types are taken into account by the styles you are comparing.
 
@@ -605,9 +581,7 @@ Using LaTex or services relying on a BibTeX file ? Install [Better BibTeX (BBT) 
 
 ### Exercise "Citing with Zotero"
 
-We take **15 minutes** for this activity.
-
-The aim is to reproduce exactly the result shown in the PDF template file available from [the "Citing with Zotero" exercise section](https://github.com/fflamerie/zotero_easy#exercise-citing-with-zotero).
+📝 The aim is to reproduce exactly the result shown in the PDF template file available from [the "Citing with Zotero" exercise section](https://github.com/fflamerie/zotero_easy#exercise-citing-with-zotero).
 
 The citation style used is **American Psychological Association 7th edition**.
 
@@ -637,7 +611,7 @@ In a Zotero group, you can define very precisely who has the right to read or ed
 ### Points to remember about synchronisation and groups
 
 * The **300 MB quota** of free storage on the Zotero server is for **attached files** and not bibliographic data: if you do not synchronise your attached files, you will not exceed your storage. For group libraries, storage is counted on the **group owner's quota**.
-* The online account allows you to **save items directly to your online library**. You can add items to your Zotero library even if Zotero is not installed on the computer you are using. However, you do need to have the Zotero connector installed in your browser, or to use the magic wand to add by identifier.
+* The online account allows you to **save items directly to your online library**. You can add items to your Zotero library even if Zotero is not installed on the computer you are using. However, you do need to have Zotero Connector installed in your browser, or to use the magic wand to add by identifier.
 * In your online library, you will find some of the features of your local library. Note that the local application is essential for **word processor integrations**.
 * Although the right to read the group library may be granted to everybody, **this access is limited to bibliographic data**: attached files remain accessible only to group members.
 * Make sure **you assign rights correctly**. For example, if the rights of group members are limited to reading the library, don't forget to give administrator rights to all the members who need to edit the library.
@@ -656,12 +630,16 @@ In a Zotero group, you can define very precisely who has the right to read or ed
 
 ![zotero][zotero] [Zotero Documentation: The Zotero Data Directory](https://www.zotero.org/support/zotero_data)
 
+
 ⚠️ 2 points to watch out for.
 
 * Make sure that the Zotero data directory is part of the data you **back up** automatically and regularly.
-* If you have a Windows roaming profile, move your Zotero data directory to another location.
+* Make sure that your data directory is not located in a location identified as **unsafe**
 
-![zotero_settings_custom_location](img/zotero_pref_emplacement_perso_EN.png)
+![zotero][zotero] [Zotero Documentation: Preferences > Advanced > Unsafe Data Directory Locations
+](https://www.zotero.org/support/preferences/advanced)
+
+![Zotero settings : data directory custom location](img/zotero_pref_emplacement_perso_EN.png)
 
 ## 9. Conclusion
 
@@ -681,11 +659,15 @@ In the Zotero documentation, ![zotero][zotero] [the "Getting the most out of Zot
 
 In this section "Getting the most out of Zotero", setting your institution's link resolver will save you time and make it easier to locate and access full text.
 
-In the _Settings_ > _General_ section, under _Locate_, open the _Resolver_ drop-down menu and browse the geographical list to select your organisation.
+In the _Settings_ > _General_ section, under _Locate_, open the _Resolver_ drop-down menu and navigate the geographical list to select your organisation.
+
+![OpenURL settings in Zotero settings](img/zotero_openurl_EN.png)
 
 This will lead you to all the access options available in your institution, and you will be able to find PDFs that Zotero was unable to download automatically.
 
-All you have to do is click on _Library Lookup_ in the _Locate_ menu, i.e. the arrow with a circle at the bottom of the shortcut bar on the right-hand panel.
+All you have to do is click on _Library Lookup_ in the _Locate_ menu, i.e. the arrow with a circle at the bottom of the shortcut bar on the right-hand pane.
+
+![The Locate menu in Zotero right pane](img/bouton_localiser_EN.png)
 
 ![zotero][zotero] [Zotero Documentation : Locate Menu](https://www.zotero.org/support/locate)
 
@@ -693,14 +675,11 @@ All you have to do is click on _Library Lookup_ in the _Locate_ menu, i.e. the a
 
 # Credits
 
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br/>This document is shared under  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"> Creative Commons Attribution -  ShareAlike3.0 France Licence </a>.
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Licence Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International Deed</a>.
 
 **Author**
 
 Frédérique Flamerie
-
-![orcid_logo](img/orcid_logo.png) [orcid.org/0000-0001-6014-0134](https://orcid.org/0000-0001-6014-0134)
 
 **Visual graphics**
 
