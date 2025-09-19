@@ -14,8 +14,8 @@ The icon ![zotero][zotero] points to the official Zotero documentation, includin
 1. Introduction
 2. Installing and setting up Zotero
 3. Building a Zotero library step 1, adding items and files
-4. Building a Zotero library step 2, organizing content from bibliographic items to PDF annotations
-5. Identifying and installing the standard bibliographic styles for your field in Zotero
+4. Building a Zotero library step 2, organizing content from bibliographic references to PDF annotations
+5. Identifying and installing the standard citation styles for your field in Zotero
 6. Citing with Zotero
 7. From Zotero library to online bibliography
 8. Your Zotero data
@@ -94,7 +94,7 @@ To fully enjoy Zotero, the application should be plugged in your browser and in 
 1. Check that Zotero is installed by opening the application on your computer.
 2. Open your browser and check that Zotero appears in the toolbar. If it doesn't appear, follow the instructions given in the documentation.
 
-[zotero][zotero] [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button)
+![zotero][zotero] [Zotero documentation: Why is there no save button in my browser toolbar?](https://www.zotero.org/support/kb/no_toolbar_button)
 
 4. Open your word processor and check that the Zotero plugin is installed. Usually, after installing Zotero, a new tab will appear in your word processor. Depending on your software, Zotero might alternatively be shown with other "Add-ons".
 
@@ -518,7 +518,7 @@ Limiting a style to a specific language prevents users from making mistakes. Wha
 
 #### Comparing styles easily in Zotero
 
-Two tools make it easy to compare bibliographic styles in Zotero.
+Two tools make it easy to compare citation styles in Zotero.
 
 * The **Style Preview feature** can be accessed from Settings > Cite.
 
