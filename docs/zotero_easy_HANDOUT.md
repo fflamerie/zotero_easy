@@ -351,7 +351,7 @@ Saved searches support a relatively rich syntax. To retrieve all items for which
 Abstract -- does not contain -- %
 ```
 
-### Zotero's integrated file reader and annotation tools
+### Zotero's built-in file reader and annotation tools
 
 ![Overview of PDF reader](img/lecteur_pdf_EN.png)
 
