@@ -355,7 +355,7 @@ Abstract -- does not contain -- %
 
 ![Overview of PDF reader](img/lecteur_pdf_EN.png)
 
-The **PDF reader** integrated from Zotero 6 supports **EPUB** files and **webpage snapshots** since Zotero 7. In particular, it offers the following features, in combination with a powerful note editor.
+The **PDF reader** built in Zotero from Zotero 6 supports **EPUB** files and **webpage snapshots** since Zotero 7. In particular, it offers the following features, in combination with a powerful note editor.
 
 * Open files in a built-in reader either within a tabbed interface in the main Zotero window, or in separate windows.
 * Clean up metadata for an item while viewing the associated file.
@@ -675,7 +675,7 @@ All you have to do is click on _Library Lookup_ in the _Locate_ menu, i.e. the a
 
 # Credits
 
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Licence Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International Deed</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />This content is made available under the licence  Creative Commons CC BY-SA 4.0 Deed <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-ShareAlike 4.0 International</a>.
 
 **Author**
 
